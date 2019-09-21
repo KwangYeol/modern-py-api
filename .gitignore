@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# force to use pip-comiple
+requirements.txt
+.vscode/
+.pyre/
+.build-success

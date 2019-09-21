@@ -1,0 +1,6 @@
+Flask
+pytest
+black
+mypy
+pyre-check
+pydantic

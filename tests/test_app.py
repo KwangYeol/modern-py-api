@@ -1,7 +1,11 @@
 import pytest
 import sys, os
 
-sys.path.insert(0, "/app/")
+# currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+# parentdir = os.path.dirname(currentdir)
+
+sys.path.insert(1, os.path.join(sys.path[0], "../src/"))
+# sys.path.insert(0, f"{parentdir}/app/")
 
 from datasets import util
 

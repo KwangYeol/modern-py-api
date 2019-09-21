@@ -10,6 +10,6 @@ steps:
       - pip-compile --generate-hashes requirements.in > requirements.txt
       - pip install --require-hashes -r requirements.txt
       - pytest ./tests
-      - black ./app
-      - mypy ./app
-      - pyre --source-directory ./app check
+      - black ./src
+      - mypy ./src
+      - pyre --source-directory ./src check

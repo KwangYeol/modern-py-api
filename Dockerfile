@@ -2,8 +2,8 @@ FROM python:3.7
 
 LABEL maintainer="Kwangyeol Ryu <kwangyeolryu@gmail.com>"
 
-COPY requirements.in /app/
-WORKDIR /app
+COPY requirements.in /src/
+WORKDIR /src
 
 # packages
 # RUN apk add --no-cache gcc

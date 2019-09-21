@@ -6,7 +6,7 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - ./src:/app
+      - ./src:/src
       - ./tests:/tests
     command: flask run --host=0.0.0.0 --reload
   # elasticsearch:

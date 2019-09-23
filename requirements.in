@@ -1,6 +1,10 @@
+aiohttp[speedups]
 Flask
 pytest
+pytest-aiohttp
 black
 mypy
 pyre-check
 pydantic
+connexion
+aiosqlite
